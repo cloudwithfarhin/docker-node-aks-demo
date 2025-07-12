@@ -1,0 +1,23 @@
+{
+  "name": "docker-node-aks-demo",
+  "version": "1.0.0",
+  "description": "Sample Node.js app containerized with Docker and deployable to Azure Kubernetes Service (AKS) via GitHub Actions CI/CD pipeline.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "kubernetes",
+    "aks",
+    "github-actions",
+    "devops",
+    "ci-cd"
+  ],
+  "author": "Farhin Mirza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
